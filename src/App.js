@@ -7,13 +7,14 @@ import './style/pages/comm.css'
 function App() {
   return (
     <>
-    <BrowserRouter>
-          <Routes>
-          {
-             routers.map((item,index)=> <Route key={index} path={item.path} element={<item.component/>}/>) 
-          }
-          </Routes>
-    </BrowserRouter>
+    <div>welcome to Myblog</div>
+    // <BrowserRouter>
+    //       <Routes>
+    //       {
+    //          routers.map((item,index)=> <Route key={index} path={item.path} element={<item.component/>}/>) 
+    //       }
+    //       </Routes>
+    // </BrowserRouter>
     </>
   );
 };
