@@ -2,7 +2,7 @@
   "name": "myblog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashublog.ink",
+  "homepage": "https://ashu.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,7 +10,6 @@
     "@types/axios": "^0.14.0",
     "@types/less": "^3.0.6",
     "antd": "^5.19.1",
-    "gh-pages": "^6.1.1",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
     "markdown-navbar": "^1.4.3",
@@ -51,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
