@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './style/pages/comm.css'
 
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? 'mumu.github.io' : '';
+  // const basename = process.env.NODE_ENV === 'production' ? 'mumu.github.io' : '';
+  const basename = '/';
   
   return (
     <>
